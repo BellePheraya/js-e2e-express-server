@@ -9,8 +9,8 @@ strategy:
     windows:
       imageName: 'windows-latest'
 
-pool:
-  vmImage: $(imageName)
+pool: Default
+  #vmImage: $(imageName)
 
 steps:
 - task: NodeTool@0
